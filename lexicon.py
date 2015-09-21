@@ -16,7 +16,7 @@ def getFromJson(response):
 ## url for calling api
 url = "https://montanaflynn-dictionary.p.mashape.com/define?word=lexicon"
 # compulsory parameters for api 
-headers = { 'X-Mashape-Key' : "YKsdEFxI1umshEhDKjPwoq2ieMykp1SQM2BjsnREi06Uuf8wCD",
+headers = { 'X-Mashape-Key' : "	GET-YOUR-KEY",
 			"Accept": "application/json" }
 url_values = urllib.urlencode(headers)	
 #sending request to server		
